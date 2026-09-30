@@ -1,0 +1,50 @@
+.claim-create-page {
+  display: flex;
+  justify-content: center;
+}
+
+.claim-create-card {
+  width: min(760px, 100%);
+}
+
+#claim-upload-form {
+  display: grid;
+  gap: 10px;
+  padding: 22px;
+}
+
+#claim-upload-form label {
+  color: var(--text);
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+#claim-upload-form label small {
+  color: #9cb1c4;
+  font-weight: 500;
+}
+
+#claim-upload-form .input {
+  width: 100%;
+  border: 1px solid #41546b;
+  border-radius: 8px;
+  background: #101b2a;
+  color: var(--white);
+  padding: 11px 12px;
+  font: inherit;
+}
+
+#claim-upload-form textarea {
+  resize: vertical;
+}
+
+#claim-upload-form .file-input {
+  padding: 9px;
+}
+
+#claim-upload-form .submit-claim {
+  width: auto;
+  min-width: 180px;
+  margin-top: 14px;
+  cursor: pointer;
+}

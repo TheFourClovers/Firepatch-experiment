@@ -1,0 +1,87 @@
+
+header {
+  height: 76px;
+  padding: 0 22px;
+  border-bottom: 1px solid var(--red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--black);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.shield {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  border: 1px solid var(--lightgreen);
+  color: var(--lightgreen);
+  display: grid;
+  place-items: center;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1.8125rem;
+  letter-spacing: 0.03125rem;
+  color: var(--white);
+}
+
+.brand h1 span {
+  color: var(--red);
+}
+
+.brand p {
+  margin: -2px 0 0;
+  color: var(--lightgreen);
+  font-size: 0.6875rem;
+  letter-spacing: 0.125rem;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--darktext);
+}
+
+.online-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--lightgreen);
+}
+
+.user {
+  padding-left: 16px;
+  border-left: 1px solid var(--white);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white);
+}
+
+.user p,
+.status {
+  margin: 0;
+  font-size: 0.75rem;
+  color: var(--white);
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid var(--red);
+  display: grid;
+  place-items: center;
+  font-size: 0.75rem;
+  color: var(--white);
+  background: var(--gray);
+}
